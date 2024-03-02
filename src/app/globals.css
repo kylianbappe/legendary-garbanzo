@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+span.error{
+    color: red;
+    display: none;
+    font-size: 12px;
+}
+
+.item{
+    width: 13.7%;
+    top: 90px;
+    position: fixed;
+}
